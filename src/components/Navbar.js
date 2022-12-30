@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { NavbarHeadshot, NavbarInner, NavbarLink, NavbarLinkMobile, NavbarMenuButton, NavbarOuter, NavbarSocialLink, NavbarWrapper, NavCenterContainer, NavLeftContainer, NavLinkWrapper, NavRightContainer, NavbarMobileSocialLink } from "../style/Navbar.style";
 import ProHeadshot from '../assets/me/headshot-square.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter, faTwitch } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
     const [mobileNav, setMobileNav] = useState(false);
@@ -24,8 +24,8 @@ const Navbar = () => {
                     <NavbarSocialLink className='twitter social' href='https://twitter.com/mdixey17'>
                         <FontAwesomeIcon icon={faTwitter} size="2x" color="#49a1eb"></FontAwesomeIcon>
                     </NavbarSocialLink>
-                    <NavbarSocialLink className='twitch social' href='https://twitch.tv/titanhawk17'>
-                        <FontAwesomeIcon icon={faTwitch} size="2x"></FontAwesomeIcon>
+                    <NavbarSocialLink className='linkedin social' href='https://www.linkedin.com/in/matt-dixey/'>
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0072b1"></FontAwesomeIcon>
                     </NavbarSocialLink>
                     <NavbarSocialLink className='github social' href='https://github.com/MDixey17'>
                         <FontAwesomeIcon icon={faGithub} size="2x" color="#FFFFFF"></FontAwesomeIcon>
@@ -45,8 +45,8 @@ const Navbar = () => {
                     <NavbarMobileSocialLink className='twitter social' href='https://twitter.com/mdixey17'>
                         <FontAwesomeIcon icon={faTwitter} size="2x" color="#49a1eb"></FontAwesomeIcon>
                     </NavbarMobileSocialLink>
-                    <NavbarMobileSocialLink className='twitch social' href='https://twitch.tv/titanhawk17'>
-                        <FontAwesomeIcon icon={faTwitch} size="2x"></FontAwesomeIcon>
+                    <NavbarMobileSocialLink className='linkedin social' href='https://www.linkedin.com/in/matt-dixey/'>
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0072b1"></FontAwesomeIcon>
                     </NavbarMobileSocialLink>
                     <NavbarMobileSocialLink className='github social' href='https://github.com/MDixey17'>
                         <FontAwesomeIcon icon={faGithub} size="2x" color="#FFFFFF"></FontAwesomeIcon>
