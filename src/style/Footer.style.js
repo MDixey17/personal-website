@@ -24,12 +24,13 @@ export const FooterContainer = styled.div`
 export const FooterHeader = styled.h2`
     color: #dee0e1;
     text-decoration: none;
-    margin: 24px;
+    margin: 0;
+    margin-left: 24px;
+    margin-right: 24px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     text-align: center;
     padding-top: 24px;
-    margin-bottom: 0;
 `;
 
 export const FooterLgImage = styled.a`
