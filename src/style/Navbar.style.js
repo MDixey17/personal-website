@@ -7,6 +7,8 @@ export const NavbarWrapper = styled.nav`
     background-color: #0A1115;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    z-index: 9999;
 
     @media (min-width: 917px) {
         height: 80px;

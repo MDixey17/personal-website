@@ -9,6 +9,7 @@ export const HeroImage = styled.div`
     height: 400px;
     width: 8000px;
     animation: slide 60s linear infinite;
+    margin-top: 80px;
 
     @keyframes slide {
         0% {
