@@ -34,7 +34,7 @@ export const ContentText = styled.p`
 `;
 
 export const ContentImage = styled.img`
-    max-width: 400px;
+    max-width: 450px;
     height: auto;
     border-radius: 12px;
     margin: 16px;
@@ -60,6 +60,7 @@ export const ContentRight = styled.div`
 export const ContentItalics = styled.p`
     font-style: italic;
     margin: 0;
+    display: inline;
 `;
 
 export const ContentLogoContainer = styled.div`

@@ -51,7 +51,7 @@ const Developer = () => {
                         tournament hosting platform for competitive esports.
                         <br/>
                         <br/>
-                        <ContentItalics>Skills Learned:</ContentItalics>
+                        <ContentItalics>Skills Learned: </ContentItalics>
                         JavaScript, SQLite, GraphQL, APIs
                     </ContentText>
                 </ContentLeft>
@@ -70,7 +70,7 @@ const Developer = () => {
                         high-end sports motion graphic package to enhance digital productions.
                         <br></br>
                         <br></br>
-                        <ContentItalics>Skills Learned:</ContentItalics>
+                        <ContentItalics>Skills Learned: </ContentItalics>
                         Unreal Engine, Blueprints, Graphics Rendering, Animation
                     </ContentText>
                 </ContentRight>
@@ -85,7 +85,7 @@ const Developer = () => {
                         abilities for players to master!
                         <br/>
                         <br/>
-                        <ContentItalics>Skills Learned:</ContentItalics>
+                        <ContentItalics>Skills Learned: </ContentItalics>
                         Unity, C#, Trello, Gameplay Programming
                     </ContentText>
                 </ContentLeft>
@@ -121,7 +121,7 @@ const Developer = () => {
                     tournament hosting platform for competitive esports.
                     <br/>
                     <br/>
-                    <ContentItalics>Skills Learned:</ContentItalics>
+                    <ContentItalics>Skills Learned: </ContentItalics>
                     JavaScript, SQLite, GraphQL, APIs
                 </ContentText>
                 <ContentLogoContainer>
@@ -135,7 +135,7 @@ const Developer = () => {
                     high-end sports motion graphic package to enhance digital productions.
                     <br></br>
                     <br></br>
-                    <ContentItalics>Skills Learned:</ContentItalics>
+                    <ContentItalics>Skills Learned: </ContentItalics>
                     Unreal Engine, Blueprints, Graphics Rendering, Animation
                 </ContentText>
                 <ContentLogoContainer>
@@ -151,7 +151,7 @@ const Developer = () => {
                     abilities for players to master!
                     <br/>
                     <br/>
-                    <ContentItalics>Skills Learned:</ContentItalics>
+                    <ContentItalics>Skills Learned: </ContentItalics>
                     Unity, C#, Trello, Gameplay Programming
                 </ContentText>
                 <ContentLogoContainer>
