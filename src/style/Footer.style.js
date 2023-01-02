@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterLargeWrapper = styled.div`
     width: 100%;
     max-height: 240px;
-    background-color: #0a1115;
+    background-color: black;
 `;
 
 export const FooterMediumWrapper = styled.div`
@@ -19,6 +19,7 @@ export const FooterContainer = styled.div`
     display: flex;
     flex: 100%;
     justify-content: center;
+    margin-bottom: 0;
 `;
 
 export const FooterHeader = styled.h2`

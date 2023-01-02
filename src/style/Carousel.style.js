@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CarouselWrapper = styled.div`
     width: 500px;
     height: 280px;
-    margin: 0 auto;
+    margin: 36px auto;
 `;
 
 export const CarouselSlider = styled.div`
@@ -21,6 +21,7 @@ export const CarouselLeftArrow = styled.div`
     z-index: 1;
     cursor: pointer;
     background-color: rgba(249, 249, 249, 0.8);
+    border-radius: 10%;
     &:hover {
         background-color: rgba(249, 249, 249, 0.4);
     }
@@ -36,6 +37,7 @@ export const CarouselRightArrow = styled.div`
     z-index: 1;
     cursor: pointer;
     background-color: rgba(249, 249, 249, 0.8);
+    border-radius: 10%;
     &:hover {
         background-color: rgba(249, 249, 249, 0.4);
     }

@@ -8,7 +8,7 @@ export const HeroImage = styled.div`
     background: ${(props) => (props.imgPath ? `url(${props.imgPath}) repeat-x` : '')};
     height: 400px;
     width: 8000px;
-    animation: slide 60s linear infinite;
+    animation: slide 90s linear infinite;
     margin-top: 80px;
 
     @keyframes slide {
