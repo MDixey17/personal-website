@@ -1,10 +1,10 @@
 import React from "react";
+import Hero from "../components/Hero";
+import DeveloperHero from "../assets/hero-images/hero-dev-black.png";
 
 const Developer = () => {
     return (
-        <div>
-            <h1>This is the DEVELOPER page</h1>
-        </div>
+        <Hero img={DeveloperHero} hText="Developer Experience" pText="Full-Stack Engineering | Game Development | Web Developer"></Hero>
     )
 };
 

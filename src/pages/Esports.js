@@ -1,10 +1,10 @@
 import React from "react";
+import Hero from "../components/Hero";
+import EsportsHero from "../assets/hero-images/hero-esports-black.png";
 
 const Esports = () => {
     return (
-        <div>
-            <h1>This is the ESPORTS page</h1>
-        </div>
+        <Hero img={EsportsHero} hText="Esports Experience" pText="Commentary | Broadcasting | Graphic Design | Video Editing"></Hero>
     )
 };
 
