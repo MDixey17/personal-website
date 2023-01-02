@@ -4,6 +4,11 @@ export const CarouselWrapper = styled.div`
     width: 500px;
     height: 280px;
     margin: 36px auto;
+    @media (max-width: 706px) {
+        width: 280px;
+        height: 150px;
+        margin: 18px auto 24px auto;
+    }
 `;
 
 export const CarouselSlider = styled.div`

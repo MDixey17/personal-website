@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import DeveloperHero from "../assets/hero-images/hero-dev-black.png";
 import Carousel from "../components/Carousel";
-import { ContentHeader, ContentImage, ContentItalics, ContentLeft, ContentLogo, ContentLogoContainer, ContentRight, ContentText, ContentWrapper } from "../style/Content.style";
+import { ContentHeader, ContentImage, ContentItalics, ContentLeft, ContentLogo, ContentLogoContainer, ContentMobileWrapper, ContentRight, ContentText, ContentWrapper } from "../style/Content.style";
 
 // Carousel Images
 import DystopianDefier from "../assets/project-cards/dystopian-defier.png";
@@ -105,6 +105,69 @@ const Developer = () => {
                     </ContentText>
                 </ContentRight>
             </ContentWrapper>
+            <ContentMobileWrapper isBlue>
+                <ContentHeader>Relevant Employment</ContentHeader>
+                <ContentText><ContentItalics>January 2023 - Present:</ContentItalics> Technology Leadership Program @ Target<br/><br/><ContentItalics>June 2022 - August 2022:</ContentItalics> Software Engineer Intern @ Major League Baseball</ContentText>
+                <ContentLogoContainer>
+                    <ContentLogo src={MLBLogo} alt="Major League Baseball"/>
+                    <ContentLogo src={TargetLogo} alt="Target"/>
+                </ContentLogoContainer>
+            </ContentMobileWrapper>
+            <ContentMobileWrapper>
+                <ContentHeader>GoldyRL</ContentHeader>
+                <ContentText>
+                    Through multiple APIs, GoldyRL is the first Discord bot to store 
+                    and maintain match history and rosters from start.gg, the current most popular 
+                    tournament hosting platform for competitive esports.
+                    <br/>
+                    <br/>
+                    <ContentItalics>Skills Learned:</ContentItalics>
+                    JavaScript, SQLite, GraphQL, APIs
+                </ContentText>
+                <ContentLogoContainer>
+                    <ContentImage src={GoldyRL}/>
+                </ContentLogoContainer>
+            </ContentMobileWrapper>
+            <ContentMobileWrapper isBlue>
+                <ContentHeader>Hype Chamber</ContentHeader>
+                <ContentText>
+                    Developed and rendered using Unreal Engine 5, the Hype Chamber is a
+                    high-end sports motion graphic package to enhance digital productions.
+                    <br></br>
+                    <br></br>
+                    <ContentItalics>Skills Learned:</ContentItalics>
+                    Unreal Engine, Blueprints, Graphics Rendering, Animation
+                </ContentText>
+                <ContentLogoContainer>
+                    <ContentImage src={HypeChamber}/>
+                </ContentLogoContainer>
+            </ContentMobileWrapper>
+            <ContentMobileWrapper>
+                <ContentHeader>Dystopian Defier</ContentHeader>
+                <ContentText>
+                    Over one semester with the University of Minnesota's Video Game 
+                    Development Club, a fully functional computer game was born. This 
+                    is a birds-eye view, survival shooter packed with hidden skills and 
+                    abilities for players to master!
+                    <br/>
+                    <br/>
+                    <ContentItalics>Skills Learned:</ContentItalics>
+                    Unity, C#, Trello, Gameplay Programming
+                </ContentText>
+                <ContentLogoContainer>
+                    <ContentImage src={DystopianDefier}/>
+                </ContentLogoContainer>
+            </ContentMobileWrapper>
+            <ContentMobileWrapper isBlue>
+                <ContentHeader>Full Project Directory</ContentHeader>
+                <ContentText>
+                    All my projects can be viewed via the image carousel! Click the cards to 
+                    learn more about each project!
+                </ContentText>
+                <ContentLogoContainer>
+                    <Carousel slides={devSlides}></Carousel>
+                </ContentLogoContainer>
+            </ContentMobileWrapper>
         </>  
     )
 };
