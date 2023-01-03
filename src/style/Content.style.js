@@ -14,7 +14,6 @@ export const ContentWrapper = styled.div`
 export const ContentHeader = styled.h1`
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     text-align: center;
     @media (max-width: 706px) {
@@ -23,7 +22,6 @@ export const ContentHeader = styled.h1`
 `;
 
 export const ContentText = styled.p`
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 16px;
     @media (max-width: 706px) {

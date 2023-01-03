@@ -7,25 +7,18 @@ export const ContactWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
 `;
 
 export const ContactInput = styled.input`
-    ::placeholder {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    
 `;
 
 export const ContactTextArea = styled.textarea`
-    ::placeholder {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    
 `;
 
 export const ContactSubmitButton = styled.button`
-    ::placeholder {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    
 `;
 
 export const ContactForm = styled.form`
@@ -36,13 +29,11 @@ export const ContactForm = styled.form`
     width: 90%;
     max-width: 600px;
     border-radius: 12px;
-    font-family: Arial, Helvetica, sans-serif;
 
     h2 {
         color: #0a1115;
         font-weight: 700;
         margin-bottom: 24px;
-        font: Arial;
         text-align: center;
     }
 
@@ -53,7 +44,6 @@ export const ContactForm = styled.form`
         outline: none;
         background: #dee0e1;
         font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
     }
 
     ${ContactSubmitButton} {

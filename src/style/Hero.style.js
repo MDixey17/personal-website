@@ -30,13 +30,11 @@ export const HeroText = styled.div`
     transform: translate(-50%, -50%);
     h1 {
         color: #f9f9f9;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
     }
 
     p {
         color: #dee0e1;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
 
