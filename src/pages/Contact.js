@@ -1,13 +1,14 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ContactForm, ContactInput, ContactSubmitButton, ContactTextArea, ContactWrapper } from '../style/Contact.style';
+import ENV from "../config.json";
 
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_e9gkx0n', 'template_dl0uldf', form.current, 'v6oWBeA0XQJNPgbFt')
+        emailjs.sendForm(ENV.SERVICE_ID, ENV.TEMPLATE_ID, form.current, ENV.PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
               console.log("Message successfully sent");
