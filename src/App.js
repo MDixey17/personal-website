@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // Import the pages
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -20,6 +20,7 @@ function App() {
                 <Route path='/developer' element={<Developer></Developer>}></Route>
                 <Route path='/esports' element={<Esports></Esports>}></Route>
                 <Route path='/contact' element={<Contact></Contact>}></Route>
+                <Route path='*' element={<Navigate to="/"></Navigate>}></Route>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
