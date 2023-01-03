@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.754ebb54.css",
+    "main.js": "/personal-website/static/js/main.cdabd5b6.js",
+    "static/media/headshot-square.png": "/personal-website/static/media/headshot-square.d79b0cd44e52ce62276b.png",
+    "static/media/RL-PlayerIntro.png": "/personal-website/static/media/RL-PlayerIntro.531e9e0b19a4d2135076.png",
+    "static/media/RL-StartingLineup-Gold.png": "/personal-website/static/media/RL-StartingLineup-Gold.c3dd46826714731a925d.png",
+    "static/media/dystopian-defier.png": "/personal-website/static/media/dystopian-defier.6da89d86ce8e13719af2.png",
+    "static/media/F22Hype-Thumbnail.png": "/personal-website/static/media/F22Hype-Thumbnail.536beb7e8432dbd0d9d7.png",
+    "static/media/Placements.png": "/personal-website/static/media/Placements.da7abed34e5dc4a2db3f.png",
+    "static/media/hero-home-black.png": "/personal-website/static/media/hero-home-black.c551482e1c6d22f7c675.png",
+    "static/media/hype-chamber.png": "/personal-website/static/media/hype-chamber.2facdb8439f392ad7733.png",
+    "static/media/DecalHowTo.png": "/personal-website/static/media/DecalHowTo.9b566ae78c8ac7f1910b.png",
+    "static/media/hero-dev-black.png": "/personal-website/static/media/hero-dev-black.b9172220fbd666bb8c86.png",
+    "static/media/hero-esports-black.png": "/personal-website/static/media/hero-esports-black.08f4241e97200046ec91.png",
+    "static/media/HC-Matchup.png": "/personal-website/static/media/HC-Matchup.ba593ad02b828eef4784.png",
+    "static/media/Gameday-SMU.png": "/personal-website/static/media/Gameday-SMU.13db76a9efb9f37d7c3c.png",
+    "static/media/GE-StreamIntro.png": "/personal-website/static/media/GE-StreamIntro.fe647c4474f2560dd111.png",
+    "static/media/goldyrl.png": "/personal-website/static/media/goldyrl.7294e705baef4be16f22.png",
+    "static/media/scrimbot.png": "/personal-website/static/media/scrimbot.7d692143d54419c752b1.png",
+    "static/media/strelka.png": "/personal-website/static/media/strelka.539abb0422b0bd39a9f4.png",
+    "static/media/gopheresports.png": "/personal-website/static/media/gopheresports.4e4cb429e3cb871d1bfe.png",
+    "static/media/CRL.png": "/personal-website/static/media/CRL.5af2acfe3672e3e4f903.png",
+    "static/media/target.png": "/personal-website/static/media/target.28ad8a8aceda54fc2ff5.png",
+    "static/media/RLCS.png": "/personal-website/static/media/RLCS.8594cf7f33ba44b9211f.png",
+    "static/media/mlb.png": "/personal-website/static/media/mlb.b25424c1e7674219f14a.png",
+    "index.html": "/personal-website/index.html",
+    "main.754ebb54.css.map": "/personal-website/static/css/main.754ebb54.css.map",
+    "main.cdabd5b6.js.map": "/personal-website/static/js/main.cdabd5b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.754ebb54.css",
+    "static/js/main.cdabd5b6.js"
+  ]
+}
