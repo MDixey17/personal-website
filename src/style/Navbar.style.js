@@ -80,6 +80,10 @@ export const NavbarHeadshot = styled.img`
     max-width: 180px;
     height: auto;
     border-radius: 50%;
+    @media (max-width: 917px) {
+        max-width: 64px;
+        height: auto;
+    }
 `;
 
 export const NavbarSocialLink = styled.a`
