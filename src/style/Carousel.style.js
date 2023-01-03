@@ -30,6 +30,9 @@ export const CarouselLeftArrow = styled.div`
     &:hover {
         background-color: rgba(249, 249, 249, 0.4);
     }
+    @media (max-width: 706px) {
+        font-size: 16px;
+    }
 `;
 
 export const CarouselRightArrow = styled.div`
@@ -45,6 +48,9 @@ export const CarouselRightArrow = styled.div`
     border-radius: 10%;
     &:hover {
         background-color: rgba(249, 249, 249, 0.4);
+    }
+    @media (max-width: 706px) {
+        font-size: 16px;
     }
 `;
 

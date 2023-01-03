@@ -39,4 +39,13 @@ export const HeroText = styled.div`
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
+
+    @media (max-width: 706px) {
+        h1 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
 `;
