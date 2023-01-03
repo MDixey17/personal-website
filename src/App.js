@@ -13,7 +13,7 @@ import './App.css';
 function App() {
     // Add in the elements after the path
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/personal-website">
             <Navbar></Navbar>
             <Routes>
                 <Route exact path='/' element={<Home></Home>}></Route>
