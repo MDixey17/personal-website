@@ -31,6 +31,7 @@ export const HeroText = styled.div`
     h1 {
         color: #f9f9f9;
         font-size: 40px;
+        margin-top: 0;
     }
 
     p {

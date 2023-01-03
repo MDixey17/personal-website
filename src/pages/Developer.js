@@ -29,7 +29,7 @@ const Developer = () => {
     }
     return (
         <>
-            <Hero img={DeveloperHero} hText="Developer Experience" pText="Full-Stack Engineering | Game Development | Web Developer"></Hero>
+            <Hero img={DeveloperHero} hText="Developer Experience" pText="Full-Stack Engineering | Gameplay Programmer"></Hero>
             <ContentWrapper isBlue>
                 <ContentLeft>
                     <ContentLogoContainer>

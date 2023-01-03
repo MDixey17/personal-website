@@ -13,6 +13,10 @@ export const NavbarWrapper = styled.nav`
     @media (min-width: 917px) {
         height: 80px;
     }
+
+    .active {
+        color: #0AB2F2;
+    }
 `;
 
 export const NavLeftContainer = styled.div`
