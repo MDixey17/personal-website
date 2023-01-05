@@ -9,10 +9,12 @@ import ProHeadshot from "../assets/me/headshot-square.png";
 // Carousel
 import ScrimBot from "../assets/project-cards/scrimbot.png";
 import GoldyRL from "../assets/project-cards/goldyrl.png";
+import AffiliateWebsite from "../assets/project-cards/affiliatemarketing.png";
 import Carousel from "../components/Carousel";
 
 const Home = () => {
     const homeSlides = [
+        { imgPath: AffiliateWebsite, url: 'https://mdixey17.github.io/tech-finds/', title: 'Affiliate Marketing Website' },
         { imgPath: ScrimBot, url: 'https://github.com/MDixey17/scrimbot', title: 'ScrimBot - Discord Bot'},
         { imgPath: GoldyRL, url: 'https://github.com/MDixey17/goldyrl', title: 'GoldyRL - Discord Bot'},
     ];

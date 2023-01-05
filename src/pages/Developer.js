@@ -10,6 +10,7 @@ import GoldyRL from "../assets/project-cards/goldyrl.png";
 import HypeChamber from "../assets/project-cards/hype-chamber.png";
 import ScrimBot from "../assets/project-cards/scrimbot.png";
 import StrelkaImg from "../assets/project-cards/strelka.png";
+import AffiliateWebsite from "../assets/project-cards/affiliatemarketing.png";
 
 // Misc Images
 import MLBLogo from "../assets/logos/mlb.png";
@@ -17,6 +18,7 @@ import TargetLogo from "../assets/logos/target.png";
 
 const Developer = () => {
     const devSlides = [
+        { imgPath: AffiliateWebsite, url: 'https://mdixey17.github.io/tech-finds/', title: 'Affiliate Marketing Website' },
         { imgPath: DystopianDefier, url: "https://boschybee.itch.io/dystopian-defiers", title: "Dystopian Defier"},
         { imgPath: GoldyRL, url: 'https://github.com/MDixey17/goldyrl', title: 'GoldyRL - Discord Bot'},
         { imgPath: HypeChamber, url: 'https://www.youtube.com/watch?v=HwYxx8k3Fyc', title: 'Rocket League Hype Chamber'},
