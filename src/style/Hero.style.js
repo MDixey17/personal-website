@@ -25,7 +25,7 @@ export const HeroImage = styled.div`
 export const HeroText = styled.div`
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     h1 {
